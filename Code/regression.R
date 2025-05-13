@@ -36,7 +36,7 @@ ggplot(howell, aes(x = weight, y = height)) +
 
 # Read the myeloma dataset and categorize TP53 expression
 library(readxl)
-myeloma <- read_excel("/Users/dfmoreno/Dropbox/Lectures/myeloma.xlsx")
+myeloma <- read_excel("myeloma.xlsx")
 mean(myeloma$TP53)
 myeloma <- myeloma %>% 
   mutate(low_tp53 = ifelse(TP53<=1500, 1, 0))
@@ -105,7 +105,7 @@ install.packages("lubridate")
 library(lubridate)
 library(tidyverse)
 
-event_data <- read_xlsx("/Users/dfmoreno/Dropbox/Lectures/dates_file.xlsx")
+event_data <- read_xlsx("dates_file.xlsx")
 
 event_data <- event_data %>% 
   mutate(pfs_yrs = as.duration(dx_date %--% event_date) / dyears(1))
