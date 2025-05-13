@@ -1,5 +1,6 @@
 # Biomedical-statistics
-Dataset Source: The myeloma dataset used in this lecture originates from the survminer R package (Kassambara, 2023), available at https://cran.r-project.org/package=survminer.
+
+Data source: The myeloma dataset used in this tutorial originates from the survminer R package (Kassambara, 2023), available at https://cran.r-project.org/package=survminer. The dataset has been modified for teaching purposes and is shared under the GPL-2 license.
 
 Data  
 Sensitivity/specificity: protein_data.xlsx  
