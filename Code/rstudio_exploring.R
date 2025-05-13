@@ -4,7 +4,7 @@
 
 # Import a database in R using the readxl package and get an overview
 library(readxl)
-myeloma <- read_excel("/Users/dfmoreno/Dropbox/Lectures/myeloma.xlsx") # change to your directory
+myeloma <- read_excel("myeloma.xlsx") # change to your directory
 str(myeloma)
 
 # Examine columns or variables. Use the tab key to quickly see columns
