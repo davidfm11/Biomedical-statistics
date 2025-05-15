@@ -1,11 +1,10 @@
-
 ### Extras ###
 
 ##### Multiple dataframes ####
 # Work with the myeloma data and add PRDM1 mutations data
 library(readxl)
 library(tidyverse)
-myeloma <- read_excel("myeloma.xlsx")
+myeloma <- read_excel("myeloma.xlsx") # change your paths
 prdm1 <- read_excel("myeloma_prdm1.xlsx")
 myeloma_2 <- read_excel("myeloma_2.xlsx")
 
