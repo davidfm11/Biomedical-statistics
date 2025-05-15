@@ -1,5 +1,3 @@
-
-
 #### Explore RStudio ####
 
 # Import a database in R using the readxl package and get an overview
