@@ -1,4 +1,4 @@
-# Biomedical-statistics
+# Biomedical statistics
 
 ## Data sources   
 The data used in this tutorial were originated from the following R packages:
