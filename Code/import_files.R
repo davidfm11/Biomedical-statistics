@@ -1,10 +1,7 @@
+### Import excel files ###
 
-
-
-
-# Import excel files: I recommend to install the package "readxl"
+# I recommend to install the package "readxl"
 # install.packages("readxl")  
-
 library(readxl)
 myeloma <- read_excel("/Users/dfmoreno/Dropbox/Lectures/myeloma.xlsx") # change your path
 
