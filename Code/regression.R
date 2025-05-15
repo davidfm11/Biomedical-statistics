@@ -110,6 +110,11 @@ event_data <- read_xlsx("dates_file.xlsx")
 event_data <- event_data %>% 
   mutate(pfs_yrs = as.duration(dx_date %--% event_date) / dyears(1))
 
+# Also try
+# mutate(pfs_yrs = time_length(dx_date %--% event_date, unit = "years"))
+# mutate(pfs_yrs = time_length(dx_date %--% event_date, unit = "months"))
+# mutate(pfs_yrs = time_length(dx_date %--% event_date, unit = "days"))
+
 survival_data <- survfit2(Surv(pfs_yrs, status==1) ~ protein1, data = event_data) 
 
 ggsurvfit(survival_data) +
