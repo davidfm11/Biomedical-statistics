@@ -1,11 +1,15 @@
 # Biomedical-statistics
 
 ## Data sources   
-The myeloma dataset used in this tutorial originates from the survminer R package (Kassambara, 2023), available at https://cran.r-project.org/package=survminer.   
+The data used in this tutorial were originated from the following R packages:
 
-The diagnoses data used in this tutorial originates from the irr R package (Gamer, 2022), available at https://cran.r-project.org/package=irr.   
+myeloma data from the survminer R package (Kassambara, 2023), available at https://cran.r-project.org/package=survminer.   
 
-The BreastCancer dataset used in this tutorial originates from the mlbench R package (Leisch, 2024), available at https://cran.r-project.org/package=mlbench.  
+diagnoses data from the irr R package (Gamer, 2022), available at https://cran.r-project.org/package=irr.   
+
+BreastCancer data from the mlbench R package (Leisch, 2024), available at https://cran.r-project.org/package=mlbench.  
+
+howell data from the lgrdata R package (Duursma, 2019), available at https://cran.r-project.org/package=lgrdata.
 
 The datasets have been modified for teaching purposes and is shared under the GPL-2 license.  
 
