@@ -3,13 +3,15 @@
 ## Data sources   
 The data used in this tutorial were originated from the following R packages:
 
-myeloma data from the survminer R package (Kassambara, 2023), available at https://cran.r-project.org/package=survminer.   
+myeloma data from the survminer R package (Kassambara, 2023), available at https://cran.r-project.org/package=survminer   
 
-diagnoses data from the irr R package (Gamer, 2022), available at https://cran.r-project.org/package=irr.   
+diagnoses data from the irr R package (Gamer, 2022), available at https://cran.r-project.org/package=irr   
 
-BreastCancer data from the mlbench R package (Leisch, 2024), available at https://cran.r-project.org/package=mlbench.  
+BreastCancer data from the mlbench R package (Leisch, 2024), available at https://cran.r-project.org/package=mlbench  
 
-howell data from the lgrdata R package (Duursma, 2019), available at https://cran.r-project.org/package=lgrdata.
+howell data from the lgrdata R package (Duursma, 2019), available at https://cran.r-project.org/package=lgrdata  
+
+pbc data from the survival R package (Therneau, 2024), available at https://cran.r-project.org/package=survival
 
 The datasets have been modified for teaching purposes and is shared under the GPL-2 license.  
 
