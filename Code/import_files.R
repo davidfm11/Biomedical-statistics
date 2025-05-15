@@ -6,8 +6,7 @@
 # install.packages("readxl")  
 
 library(readxl)
-myeloma <- read_excel("/Users/dfmoreno/Dropbox/Lectures/myeloma.xlsx")
-
+myeloma <- read_excel("/Users/dfmoreno/Dropbox/Lectures/myeloma.xlsx") # change your path
 
 # Check the first lines 
 head(myeloma)
@@ -25,8 +24,8 @@ str(myeloma)
 
 # It is good practice to include the separator (sep)
 # read.csv can read multiple formats, not only csv files
-myeloma_commas <- read.csv("/Users/dfmoreno/Dropbox/Lectures/myeloma_commas.csv", sep=",")
-myeloma_tabs <- read.csv("/Users/dfmoreno/Dropbox/Lectures/myeloma_tabs.tsv", sep="\t")
+myeloma_commas <- read.csv("/Users/dfmoreno/Dropbox/Lectures/myeloma_commas.csv", sep=",") # change your path
+myeloma_tabs <- read.csv("/Users/dfmoreno/Dropbox/Lectures/myeloma_tabs.tsv", sep="\t") # change your path
 
 # Explore the dataframe
 head(myeloma_commas)
