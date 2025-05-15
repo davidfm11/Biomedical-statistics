@@ -1,7 +1,4 @@
-
-
-#####Diagnostic tests ###
-
+### Diagnostic tests ###
 
 ##### Sensitivity and Specificity ####
 # install.packages("caret")
@@ -115,8 +112,7 @@ diagnoses <- diagnoses %>% mutate(Patient_ID = 1:nrow(.))
 diagnoses_long <- diagnoses %>% 
   pivot_longer(cols = starts_with("rater"),
                names_to = "rater",
-               values_to = "diagnosis"
-  )
+               values_to = "diagnosis")
 
 # Actually plotting
 ggplot(diagnoses_long, aes(x = Patient_ID, y = rater, fill = diagnosis)) +
