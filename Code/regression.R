@@ -36,7 +36,7 @@ ggplot(howell, aes(x = weight, y = height)) +
 
 # Read the myeloma dataset and categorize TP53 expression
 library(readxl)
-myeloma <- read_excel("myeloma.xlsx")
+myeloma <- read_excel("myeloma.xlsx") # remember to change your path
 mean(myeloma$TP53)
 myeloma <- myeloma %>% 
   mutate(low_tp53 = ifelse(TP53<=1500, 1, 0))
